@@ -107,9 +107,19 @@ button {
   color: white;
 }
 
+button:hover,
+button:focus {
+  background-color: #ef7f52;
+}
+
 .white-button {
   background-color: white;
   color: #ce5f31;
+}
+
+.white-button:hover,
+.white-button:focus {
+  background-color: beige;
 }
 
 /* Content */
